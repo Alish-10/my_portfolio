@@ -25,6 +25,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "Contact",
+    page: "contacts",
+  },
 ];
 
 export default function Navbar() {
@@ -91,7 +95,7 @@ export default function Navbar() {
                   onClick={() => setTheme("dark")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} color="black" />
                 </button>
               )}
             </div>
